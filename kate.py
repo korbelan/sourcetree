@@ -11,6 +11,8 @@ r_y0 = 0
 r_x0 = 0
 r = 0
 
+
+
 def get_circle_radius_and_center( x0,  y0,  x_middle,  y_middle,  x100,  y100,  r_y0,  r_x0,  r):
   a = x_middle - x0
   b = y_middle - y0
@@ -55,4 +57,4 @@ for i in range(11):
     print("aux pos = ")
     get_AUX_from_main_pos(r_x0, r_y0, r, cur_main)
     
-        
+print("second commit")        
